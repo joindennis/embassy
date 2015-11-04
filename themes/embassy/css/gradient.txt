@@ -1,0 +1,8 @@
+background: #c7a87c; /* Old browsers */
+background: -moz-linear-gradient(top,  #c7a87c 0%, #857355 96%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c7a87c), color-stop(96%,#857355)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #c7a87c 0%,#857355 96%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #c7a87c 0%,#857355 96%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #c7a87c 0%,#857355 96%); /* IE10+ */
+background: linear-gradient(to bottom,  #c7a87c 0%,#857355 96%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7a87c', endColorstr='#857355',GradientType=0 ); /* IE6-9 */

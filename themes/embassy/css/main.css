@@ -1,0 +1,38 @@
+
+a,
+a:hover
+{
+	color: #111;
+}
+
+a
+{
+	-webkit-transition: color .3s ease;
+	-moz-transition: color .3s ease;
+	-ms-transition: color .3s ease;
+	-o-transition: color .3s ease;
+	transition: color .3s ease;
+}
+
+a,
+a:hover
+{
+	text-decoration: none;
+}
+
+
+
+
+
+/*
+	RESPONSIVENESS
+*/
+
+@media screen and (max-width: 40em), screen and (max-height: 40em) /* 640 */
+{
+	#ad,
+	#meta
+	{
+		display: none;
+	}
+}

@@ -1,0 +1,143 @@
+ #nav
+		{
+			 
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+	 
+		
+		}
+
+			#nav > a
+			{
+				display: none;
+			}
+
+			#nav li
+			{
+				position: relative;
+width: 120px;
+z-index: 10000;
+ 
+			}
+			
+				#nav li:hover
+			{
+				 color:#808080;
+ 
+			}	
+			
+			
+			
+			
+				#nav li a
+				{
+					color: #fff;
+					display: block;
+				}
+				#nav li a:active
+				{
+				
+				}
+
+		 
+
+			/* first level */
+
+			#nav > ul
+			{
+			height: 3.75em;
+padding-top: 14px;
+				/*background-color: #e15a1f;*/
+			}
+				#nav > ul > li
+				{
+					 
+color: #fff;
+float: left;
+font-family: HelveticaNeueLTStd47Light !important;
+font-size: 16px;
+margin-right: 47px;
+position: relative;
+text-transform: uppercase;
+				}
+				
+				
+			div#menu nav#right nav#nav ul.clearfix li{
+				color: #fff;
+float: left;
+font-family: HelveticaNeueLTStd47Light !important;
+font-size: 16px;
+margin-right: 2px;
+position: relative;
+text-transform: uppercase;
+			}	
+				
+				
+				
+				
+					#nav > ul > li > a
+					{
+						height: 100%;
+						 
+						line-height: 2.5em; /* 60 (24) */
+						text-align: center;
+					}
+						#nav > ul > li:not( :last-child ) > a
+						{
+							/*border-right: 1px solid #cc470d;*/
+						}
+						#nav > ul > li:hover > a,
+						#nav > ul:not( :hover ) > li.active > a
+						{
+							/*background-color: #cc470d;*/
+						}
+
+
+				/* second level */
+
+				#nav li ul
+				{
+					/*background-color: #cc470d;*/
+					display: none;
+					 
+					top: 100%;
+				}
+					#nav li:hover ul
+					{
+						display: block;
+						left: 0;
+						right: 0;
+					}
+						#nav li:not( :first-child ):hover ul
+						{
+							left: -1px;
+						}
+						#nav li ul a
+						{
+						padding-bottom: 5px;
+								padding-top: 5px;
+								   background:#f3efe8; 
+    color:#808080 !important;
+    margin-bottom: 1px;	
+					width: 120px;
+					text-align: center;
+					color: #fff;
+ 
+font-family: HelveticaNeueLTStd47Light !important;
+font-size: 16px;
+margin-right: 70px;
+position: relative;
+text-transform: uppercase;
+
+
+						}
+							#nav li ul li a:hover,
+							#nav li ul:not( :hover ) li.active a
+							{
+								 
+								 
+								padding-bottom: 5px;
+								padding-top: 5px;
+								   background:#f3efe8; 
+    color:#808080;
+							}

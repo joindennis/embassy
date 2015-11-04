@@ -1,0 +1,4 @@
+[14-Jan-2015 18:04:05 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/embassygrand/public_html/wp-content/themes/embassy/index.php on line 17
+[19-Jul-2015 11:33:31 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/embassygrand/public_html/wp-content/themes/embassy/404.php on line 10
+[22-Sep-2015 06:09:29 UTC] PHP Fatal error:  Call to undefined function post_password_required() in /home/embassygrand/public_html/wp-content/themes/embassy/comments.php on line 20
+[26-Oct-2015 18:36:12 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/embassygrand/public_html/wp-content/themes/embassy/index.php on line 17
